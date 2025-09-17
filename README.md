@@ -3,29 +3,21 @@
 
 This project applies K-Means clustering to segment customers based on demographic and purchasing behavior. The final model is deployed as an interactive Streamlit web app that predicts a customer’s segment from input features.
 
-# 📂 Project Structure
-├── customer_segmentation.csv   # Raw dataset
-├── EDA_Model.ipynb             # Exploratory Data Analysis & model training notebook
-├── kmeans_model.pkl            # Trained K-Means clustering model
-├── scaler.pkl                  # Pre-fitted StandardScaler for preprocessing
-├── segmentation.py             # Streamlit app for customer segmentation
-└── README.md                   # Project documentation
-
 # 🚀 Features
 
 * Exploratory Data Analysis (EDA):
 
-Data cleaning, feature engineering, visualization of customer patterns.
+  Data cleaning, feature engineering, visualization of customer patterns.
 
 * Modeling:
 
-K-Means clustering to group customers into meaningful segments.
+  K-Means clustering to group customers into meaningful segments.
 
-StandardScaler used for feature scaling.
+  StandardScaler used for feature scaling.
 
 * Deployment:
 
-Streamlit app (segmentation.py) for real-time customer segment prediction.
+  Streamlit app (segmentation.py) for real-time customer segment prediction.
 
 # 📊 Dataset
 
@@ -57,10 +49,10 @@ Outputs: Customer segment (Cluster 0, Cluster 1, …)
 
 Run the app locally:
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-# Start the app
+## Start the app
 streamlit run segmentation.py
 
 # App Workflow
