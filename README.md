@@ -63,6 +63,9 @@ Click Predict Segment.
 
 The app displays the predicted customer cluster.
 
+<img width="806" height="839" alt="Screenshot 2025-09-17 003833" src="https://github.com/user-attachments/assets/9d264a18-af63-4620-8128-382d4ebc573b" />
+
+
 # 📦 Requirements
 
 Python 3.8+
